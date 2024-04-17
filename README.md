@@ -15,6 +15,10 @@
 <img width="500" alt="image" src="imgs/socket.jpg">
 </div>
 
+<div align=center>
+<img width="500" alt="image" src="imgs/hw.jpg">
+</div>
+
 （2）软件部分
 
 * Ubuntu 20.04
