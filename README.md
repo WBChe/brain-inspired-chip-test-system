@@ -12,11 +12,11 @@
 * 4 * 光纤线
 
 <div align=center>
-<img width="500" alt="image" src="imgs/socket.jpg">
+<img width="500" alt="image" src="imgs/hw.png">
 </div>
 
 <div align=center>
-<img width="500" alt="image" src="imgs/hw.jpg">
+<img width="500" alt="image" src="imgs/socket.jpg">
 </div>
 
 （2）软件部分
