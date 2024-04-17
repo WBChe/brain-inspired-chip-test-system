@@ -1,1 +1,0 @@
-please read 类脑芯片socket测试系统说明
