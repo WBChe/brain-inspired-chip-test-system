@@ -1,0 +1,12 @@
+
+CFLAGS=-I /usr/include -DOS_LINUX -DDEBUG_PRINT -DLINUX_KERNEL -DDEBUG_PRINT 
+LDFLAGS=-L /usr/lib 
+
+all : clean zcu102_sender
+
+zcu102_sender : *.cpp *.c
+	g++ -m32 --static $^ -o $@ $(CFLAGS) $(LDFLAGS) -std=c++11
+
+clean :
+	@rm -rf zcu102_sender
+	@rm -rf zcu102_sender.exe

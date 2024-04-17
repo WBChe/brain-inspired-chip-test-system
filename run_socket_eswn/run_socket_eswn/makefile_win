@@ -1,0 +1,11 @@
+
+CFLAGS=-I../libusb-1.0.23/include/libusb-1.0 -DNODEBUG_PRINT -DOS_WIN
+LDFLAGS=-L../libusb-1.0.23/MinGW32/dll -L../libusb-1.0.23/MinGW32/static -lusb-1.0
+all : clean zcu102_sender
+
+zcu102_sender : *.cpp
+	g++ $^ -o $@ $(CFLAGS) $(LDFLAGS) -std=c++11 
+	
+clean :
+	del zcu102_sender.exe
+	del zcu102_sender

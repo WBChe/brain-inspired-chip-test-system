@@ -1,0 +1,13 @@
+
+CFLAGS=-I /usr/include -DOS_LINUX -DNODEBUG_PRINT -DLINUX_KERNEL 
+#LDFLAGS=-L /usr/lib -lusb-1.0
+#LDFLAGS= ./libusb-1.0-x64.a ./libudev-x64.a -lpthread
+
+all : clean zcu102_sender
+
+zcu102_sender :  *.cpp *.c
+	g++ --static $^ -o $@ $(CFLAGS) $(LDFLAGS) -std=c++11
+
+clean :
+	@rm -rf zcu102_sender
+	@rm -rf zcu102_sender.exe

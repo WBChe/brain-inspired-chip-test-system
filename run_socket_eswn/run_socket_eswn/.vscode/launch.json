@@ -1,0 +1,30 @@
+// launch.json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "makeMyProject",
+            "program": "${workspaceFolder}/zcu102_sender",
+            // "args": [1,8,0 ,"~/work/data/ei_data_128k_0.5","/home/upload/ei_128_asic" ,4,2,0,0,0,0,0,0],
+            "args": [6,36,0 ,"~/work/work_cwb/data/1k36chip_asic","~/work/work_cwb/upload/1k36chip_asic",6,6,1,0, 0, 1, 100, 16384,"xdma0"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
