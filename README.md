@@ -1,6 +1,19 @@
 ![语言](https://img.shields.io/badge/语言-verilog-FF1010.svg) ![仿真](https://img.shields.io/badge/部署-vivado-green.svg) ![部署](https://img.shields.io/badge/语言-C++-blue.svg) ![部署](https://img.shields.io/badge/部署-vscode-9A90FD.svg) 
 
-<span id="en">brain-inspired chip test system for gdiist</span>
+**<span id="en">brain-inspired chip test system for gdiist - cwb 2024.4.29</span>**
+===========================
+
+**socket测试系统的上位机软件及配套文件夹**
+
+* 上位机程序：run_socket_eswn
+* 测试数据weight文件夹：data
+* 上传数据weight_check文件夹：upload
+* 比特流文件：bit_stream
+
+
+
+
+<span id="en">类脑芯片socket测试系统说明</span>
 ===========================
 
 **（1）硬件部分**
