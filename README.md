@@ -1,6 +1,6 @@
 ![语言](https://img.shields.io/badge/语言-verilog-FF1010.svg) ![仿真](https://img.shields.io/badge/部署-vivado-green.svg) ![部署](https://img.shields.io/badge/语言-C++-blue.svg) ![部署](https://img.shields.io/badge/部署-vscode-9A90FD.svg) 
 
-**<span id="en">brain-inspired chip test system for gdiist - cwb 2024.4.29</span>**
+**<span id="en">brain-inspired chip test system for gdiist - cwb 2024.5.1</span>**
 ===========================
 
 **socket测试系统的上位机软件及配套文件夹**
